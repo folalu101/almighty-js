@@ -35,10 +35,10 @@
 // console.log(goout());
 
 // where y= 3, m = (y**2 - 32)**2 / Math.sqrt(4/y)
-// let y = 3;
+let y = 3;
 
-// function goin(){
+function goin(){
 
-//      return (y ** 2 - 32)**2 / Math.sqrt(4/y);
-// }
-// alert(goin());
+     return (y ** 2 - 32)**2 / Math.sqrt(4/y);
+}
+alert(Math.round(goin()));
