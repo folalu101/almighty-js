@@ -35,10 +35,26 @@
 // console.log(goout());
 
 // where y= 3, m = (y**2 - 32)**2 / Math.sqrt(4/y)
-let y = 3;
+// let y = 3;
 
-function goin(){
+// function goin(){
 
-     return (y ** 2 - 32)**2 / Math.sqrt(4/y);
+//      return (y ** 2 - 32)**2 / Math.sqrt(4/y);
+// }
+// alert(Math.round(goin()));
+
+// more ways in writing functions for formular
+// b= 5, a= 1, c=6 (-b +- Math.sqrt(b**2 - (4*a*c)/2a)
+
+let m = parseInt(prompt('solve the almighty formula below'))
+
+let b = 5;
+let a = 1;
+let c = 6;
+
+function quadE(){
+    let eqt1 = Math.sqrt(b**2 - (4*a*c));
+    let eqt2 = -b +
+    let x = Math.round(eqt2)/2*a;
+    
 }
-alert(Math.round(goin()));
