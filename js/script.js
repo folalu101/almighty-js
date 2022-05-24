@@ -46,15 +46,40 @@
 // more ways in writing functions for formular
 // b= 5, a= 1, c=6 (-b +- Math.sqrt(b**2 - (4*a*c)/2a)
 
-let m = parseInt(prompt('solve the almighty formula below'))
+
+
+// q1(+)
+// let m = parseInt(prompt('solve the almighty formula below'))
+
+// let b = 5;
+// let a = 1;
+// let c = 6;
+
+// function quadE(){
+//     let eqt1 = Math.sqrt(b**2 - (4*a*c));
+//     let eqt2 = -b + eqt1;
+//     let x = Math.round(eqt2)/2*a;
+
+//     return x;
+    
+// }
+// alert(quadE());
+
+// q2(-)
+let m = parseInt(prompt('solve the almighty formula below'));
 
 let b = 5;
 let a = 1;
 let c = 6;
 
-function quadE(){
-    let eqt1 = Math.sqrt(b**2 - (4*a*c));
-    let eqt2 = -b +
-    let x = Math.round(eqt2)/2*a;
-    
+function almightyF(){
+     let eqt1 = Math.sqrt(b**2 - 4*a*c);
+     let eqt2 = -b - eqt1;
+     let x = Math.round(eqt2)/2*a;
+
+     return x;
 }
+document.write(almightyF());
+
+
+
