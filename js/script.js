@@ -66,20 +66,39 @@
 // alert(quadE());
 
 // q2(-)
-let m = parseInt(prompt('solve the almighty formula below'));
+// let m = parseInt(prompt('solve the almighty formula below'));
 
-let b = 5;
-let a = 1;
+// let b = 5;
+// let a = 1;
+// let c = 6;
+
+// function almightyF(){
+//      let eqt1 = Math.sqrt(b**2 - 4*a*c);
+//      let eqt2 = -b - eqt1;
+//      let x = Math.round(eqt2)/2*a;
+
+//      return x;
+// }
+// document.write(almightyF());
+
+
+// q3
+// // a= 2, c= 6, d= 4, b= 3 ((a*c + b*d)/(c**2 + d**2)) + ((b*c - a*d)/(c**2 + d**2))
+
+let m = parseInt(prompt());
+
+let a = 2;
+let b = 3;
 let c = 6;
+let d = 4;
 
-function almightyF(){
-     let eqt1 = Math.sqrt(b**2 - 4*a*c);
-     let eqt2 = -b - eqt1;
-     let x = Math.round(eqt2)/2*a;
+function formL(){
+     let eqt1 = a*c + b*d;
+     let eqt2 = b*c - a*d;
+     let eqt3 = eqt1 + eqt2;
+     let x = Math.round(eqt3)/(c**2 + d**2)
 
      return x;
 }
-document.write(almightyF());
-
-
+document.write(formL());
 
